@@ -3,15 +3,8 @@
 }
 
 #logo {
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-}
-
-#coming {
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #8ABC95;
+  
+    width: 100%;
+    height: 100%;
+ 
 }
