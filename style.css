@@ -30,7 +30,7 @@
 
 #iphone_mit_echarge_logo > img {
     margin-top: 10%;
-    height: 18%;
+
     width: 18%;
     margin-left: 12%;
 }
@@ -156,5 +156,40 @@
 
 #container-4 {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 55%;
 }
+
+#container-5 {
+    width: 100%;
+    margin-bottom: 50%;
+}
+
+#search_by_map_header {
+    float: left;
+    width: 50%;
+}
+
+#search_by_map_header > p {
+    font-size: 3.5vw;
+    margin-left: 15%;
+}
+
+#navigation_icon {
+    float: left;
+    width: 50%;
+    
+}
+
+#navigation_icon > img {
+    width: 12%;
+    padding-top: 5%;
+}
+
+#container-6 {
+    display: grid;
+}
+
+#welle_duenn, #suche_links, #suche_rechts {
+    grid-area: 1 / 1;
+}
+
