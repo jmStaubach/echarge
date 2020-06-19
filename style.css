@@ -186,10 +186,40 @@
 }
 
 #container-6 {
-    display: grid;
+    position: relative;
+    z-index: 1;
 }
 
 #welle_duenn, #suche_links, #suche_rechts {
-    grid-area: 1 / 1;
+    position: absolute;
+    z-index: 3;
 }
+
+
+#iphone_mit_adresse_und_map_container{
+    position: absolute;
+    z-index: 2;
+}
+
+#iphone_mit_adresse_und_map{
+  
+    width: 36%;
+    height: 36%;
+}
+
+.img-full-size{
+    width: 100%;
+    height: 100%;
+}
+
+
+#search_by_list_header{
+    
+}
+
+
+
+
+
+
 
