@@ -186,25 +186,31 @@
 }
 
 #container-6 {
+    margin-top: -45%;
+display: grid;
+}
+
+#suche_links, #welle_duenn{
+    grid-area: 1 / 1;
+}
+
+
+#suche_links{
+    margin-left: 15%;
+    margin-top: 30%;
+    /* width: 60%;
+    height:60%; */
+    /* top: 10%;
+    
     position: relative;
-    z-index: 1;
+   z-index: 1;
+   left: -10%; */
+
 }
 
-#welle_duenn, #suche_links, #suche_rechts {
-    position: absolute;
-    z-index: 3;
-}
-
-
-#iphone_mit_adresse_und_map_container{
-    position: absolute;
-    z-index: 2;
-}
-
-#iphone_mit_adresse_und_map{
-  
+#adress_map{
     width: 36%;
-    height: 36%;
+    height:36%;
 }
 
 .img-full-size{
@@ -213,13 +219,131 @@
 }
 
 
-#search_by_list_header{
+/* #map{
+    position: absolute;
+    z-index: 3;
+    left: 30%;
+    width: 100%;
+    height: 100%;
     
+}
+
+#adresse{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+} */
+
+/* #iphone_mit_addresse_suche{
+    width: 100%;
+    height: 100%;
+ 
+}
+
+#iphone_mit_map{
+    width: 100%;
+    height: 100%;
+  
+} */
+
+#container-7{
+    display: flex; 
+    flex-direction: column;  
+
 }
 
 
 
+#search_by_list_header {
+    margin-top: -20%;
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+   width: 40%;
+   margin-left: 60%;
+}
+
+#search_by_list_header > p {
+    font-size: 3.5vw;
+    margin-left: 15%;
+}
 
 
+#suche_rechts{
+ display: flex;
+justify-content: space-evenly;
+}
+
+#list_sort{
+    width: 36%;
+    height: 36%;
+    /* margin-left: 60%; */
+}
+
+#text_sort{
+    padding-top: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#container-9{
+    margin-top: 15%;
+}
+
+#booking {
+
+    width: 100%;
+    height: 100%;
+}
+
+#booking_header{
+    font-size: 3.5vw;
+    margin-left: 8%;
+}
+  
+
+#architektur_header{
+    align-items: center;
+    display: flex;
+    font-size: 3.5vw;
+    margin-left: 8%;
+}
+
+#architecture_img{
+    width: 100%;
+    height: 100%;
+}
+
+#architektur_text{
+    margin-left: 50%;
+}
 
 
+#text_auto{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+}
+
+#tech_header{
+    align-items: center;
+    display: flex;
+    font-size: 3.5vw;
+    margin-left: 8%;
+}
+
+#auto_recht{
+
+    padding-right: 10%;
+}
+
+#end{
+    width: 100%;
+    margin-top: 20%;
+}
+
+#setting{
+    padding-left: 2em;
+}
