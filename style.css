@@ -378,3 +378,10 @@ font-size: 1vw;
     width: 6vw;
     height: 6vw;
 }
+
+#impressum > a{
+    display: flex;
+    justify-content: center;
+    color: #8ABC95;
+    text-decoration: none;
+}
