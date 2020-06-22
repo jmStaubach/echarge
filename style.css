@@ -286,6 +286,7 @@ justify-content: space-evenly;
     padding-top: 40%;
     padding-right: 5%;
     padding-left: 5%;
+    font-size: 1vw;
 }
 
 #container-9{
@@ -326,10 +327,11 @@ justify-content: space-evenly;
 
 #architektur_text{
     margin-left: 50%;
+    font-size: 1vw;
 }
 
 
-#text_auto{
+#auto_text{
     display: flex;
     justify-content: space-between;
     margin-left: 8%;
@@ -343,10 +345,18 @@ justify-content: space-evenly;
 }
 
 #auto_recht{
-
-    padding-right: 10%;
+    height: 40%;
+    width: 40%
 }
 
+#auto_links{
+    height: 40%;
+    width: 40%
+}
+
+#text_auto{
+font-size: 1vw;
+}
 #end{
     width: 100%;
     margin-top: 20%;
