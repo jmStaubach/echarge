@@ -265,21 +265,25 @@ display: grid;
    margin-left: 60%;
 }
 
-#search_by_list_header > p {
+#search_by_list_header {
     font-size: 3.5vw;
-    margin-left: 15%;
+    margin-left: 50%;
 }
 
-
+#listen_icon{
+    margin-left: 1em ;
+}
 #suche_rechts{
  display: flex;
 justify-content: space-evenly;
 }
 
+
 #list_sort{
     width: 36%;
     height: 36%;
     /* margin-left: 60%; */
+    margin-right: 10%;
 }
 
 #text_sort{
@@ -302,6 +306,7 @@ justify-content: space-evenly;
 #booking_header{
     font-size: 3.5vw;
     margin-left: 8%;
+    margin-bottom: 10%;
 }
 
 #echarge_icon{ 
@@ -325,8 +330,14 @@ justify-content: space-evenly;
     height: 100%;
 }
 
+#architektur_header{
+    margin-top: 10%;
+}
+
 #architektur_text{
     margin-left: 50%;
+    margin-right: 20%;
+    margin-bottom: 10%;
     font-size: 1vw;
 }
 
